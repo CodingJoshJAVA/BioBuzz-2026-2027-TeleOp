@@ -3,14 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BioBuzz-TeleOP.iml" filepath="$PROJECT_DIR$/.idea/modules/BioBuzz-TeleOP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FtcRobotController/BioBuzz-TeleOP.FtcRobotController.iml" filepath="$PROJECT_DIR$/.idea/modules/FtcRobotController/BioBuzz-TeleOP.FtcRobotController.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FtcRobotController/BioBuzz-TeleOP.FtcRobotController.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/FtcRobotController/BioBuzz-TeleOP.FtcRobotController.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FtcRobotController/BioBuzz-TeleOP.FtcRobotController.main.iml" filepath="$PROJECT_DIR$/.idea/modules/FtcRobotController/BioBuzz-TeleOP.FtcRobotController.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FtcRobotController/BioBuzz-TeleOP.FtcRobotController.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/FtcRobotController/BioBuzz-TeleOP.FtcRobotController.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TeamCode/BioBuzz-TeleOP.TeamCode.iml" filepath="$PROJECT_DIR$/.idea/modules/TeamCode/BioBuzz-TeleOP.TeamCode.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TeamCode/BioBuzz-TeleOP.TeamCode.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/TeamCode/BioBuzz-TeleOP.TeamCode.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TeamCode/BioBuzz-TeleOP.TeamCode.main.iml" filepath="$PROJECT_DIR$/.idea/modules/TeamCode/BioBuzz-TeleOP.TeamCode.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TeamCode/BioBuzz-TeleOP.TeamCode.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/TeamCode/BioBuzz-TeleOP.TeamCode.unitTest.iml" />
     </modules>
   </component>
 </project>
