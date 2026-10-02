@@ -44,8 +44,8 @@ public class Console {
         log(formatHtml(COLOR_ERROR, key), formatHtml(COLOR_ERROR, value));
     }
 
-    public void h(String text) {
-        log("<h1>" + text + "</h1>");
+    public void h1(String text, String Color) {
+        log("<font color=\"" + Color + "\"><h1>" + text + "</h1></font>");
     }
 
     private String formatHtml(String color, String text) {
