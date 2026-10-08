@@ -4,12 +4,12 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 
 public class ArcadeDriveRW {
-    private DcMotor backLeft;
-    private DcMotor frontLeft;
+    private DcMotor BackLeft;
+    private DcMotor FrontLeft;
 
-    private DcMotor backright;
+    private DcMotor BackRight;
 
-    private DcMotor frontRight;
+    private DcMotor FrontRight;
 
     public void init(HardwareMap hwMap) {
         hwMap.get(DcMotor.class, "BackLeft");
@@ -17,12 +17,12 @@ public class ArcadeDriveRW {
         hwMap.get(DcMotor.class, "Backright");
         hwMap.get(DcMotor.class, "FrontRight");
 
-        backLeft.setDirection(DcMotor.Direction.REVERSE);
-        frontLeft.setDirection(DcMotor.Direction.REVERSE);
-backLeft.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-        frontRight.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-        backright.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
-        frontLeft.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        BackLeft.setDirection(DcMotor.Direction.REVERSE);
+        FrontLeft.setDirection(DcMotor.Direction.REVERSE);
+BackRight.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        FrontRight.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        BackLeft.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
+        FrontLeft.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
 
 
 
@@ -41,10 +41,10 @@ public void Drive(double throttle, double spin){
 
 
         }
-        backLeft.setPower(leftpwr);
-    frontLeft.setPower(leftpwr);
-    backright.setPower(rightpwr);
-    frontRight.setPower(rightpwr);
+        BackLeft.setPower(leftpwr);
+    FrontLeft.setPower(leftpwr);
+    BackRight.setPower(rightpwr);
+    FrontRight.setPower(rightpwr);
 
 
 
